@@ -1,9 +1,6 @@
-default: run-no-install
+default: run
 
-run: install
-	@ xterm ./run.sh &
-
-run-no-install:
+run:
 	@ xterm ./run.sh &
 
 clean:
