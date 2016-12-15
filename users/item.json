@@ -1,0 +1,4 @@
+{
+	"email":{"S": "apalmatier12@gmail.com"},
+	"password":{"S": "mypassword"}
+}
