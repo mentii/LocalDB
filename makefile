@@ -1,18 +1,14 @@
 default: run
 
-run:
-	@ osType=$(shell uname -a | awk -F " " '{print $$1}'); \
-  if [ $$osType = Linux ]; then \
-		xterm ./run.sh &; \
-		xterm ./createTables.sh &; \
-	else \
-		open -a Terminal ./run.sh &; \
-		open -a Terminal ./createTables.sh &; \
-	fi
+TERMINALSPAWNER=xterm -e
+osType=$(shell uname -a | awk -F " " '{print $$1}')
+ifneq ($(osType),Linux)
+	TERMINALSPAWNER=open -a Terminal
+endif
 
-run-mac:
-	@ open -a Terminal ./run.sh &
-	@ open -a Terminal ./createTables.sh &
+run:
+	@ $(TERMINALSPAWNER) ./run.sh &
+	@ $(TERMINALSPAWNER) ./createTables.sh &
 
 clean:
 	@ rm -rf ~/dynamoDB/
