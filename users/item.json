@@ -1,4 +1,6 @@
 {
 	"email":{"S": "apalmatier12@gmail.com"},
-	"password":{"S": "mypassword"}
+	"password":{"S": "f4dcc3b5aa765d61d8327deb882cf99"},
+        "active": {"S": "T"},
+        "codes": {"S": "d26713cc-f02d-4fd6-80f0-026784d1ab9b"}
 }
