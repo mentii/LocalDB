@@ -7,6 +7,8 @@ ifeq ($(osType),Darwin)
 endif
 
 run:
+	@ pip install virtualenv
+	@ virtualenv -p /usr/bin/python env
 	@ $(TERMINALSPAWNER) ./run.sh &
 	@ $(TERMINALSPAWNER) ./createTables.sh &
 
