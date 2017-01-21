@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "Populating DB once it is available..."
+echo "Initializing tables in the db once available..."
 cd users
-./initTable_Users.sh
+./createTable_Users.py
 cd ../classes
-./initTable_Classes.sh
+./createTable_Classes.py
