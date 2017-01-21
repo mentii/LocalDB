@@ -7,6 +7,15 @@ import time
 import sys
 import botocore
 
+def check_server(address, port):
+  # Create a TCP socket
+  s = socket.socket()
+  try:
+    s.connect((address, port))
+    return True
+  except socket.error, e:
+    return False
+
 dynamodb = boto3.resource('dynamodb', region_name='us-west-2', endpoint_url='http://localhost:8000')
 
 print('Creating users table..')
@@ -14,9 +23,9 @@ print('Creating users table..')
 # Wait until port is listening
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-while(sock.connect_ex(('localhost',8000))):
+while(not check_server('localhost',8000)):
   print('DB is not up')
-  time.sleep(1)
+  time.sleep(2)
 
 print('DB is up')
 
