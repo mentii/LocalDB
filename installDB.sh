@@ -1,6 +1,7 @@
 #!/bin/bash
 
 wget http://dynamodb-local.s3-website-us-west-2.amazonaws.com/dynamodb_local_latest.tar.gz
+chmod 755 ./dynamodb_local_latest.tar.gz
 mkdir ~/dynamoDB
 mv dynamodb_local_latest.tar.gz ~/dynamoDB/
 cd ~/dynamoDB/
