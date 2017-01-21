@@ -8,7 +8,6 @@ import sys
 import botocore
 
 dynamodb = boto3.resource('dynamodb', region_name='us-west-2', endpoint_url='http://localhost:8000')
-client = boto3.client('dynamodb', endpoint_url='http://localhost:8000')
 
 print("Creating users table..")
 
