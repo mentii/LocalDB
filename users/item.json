@@ -6,8 +6,8 @@
   "userRole": {
     "S": "teacher"
   },
-  "classCodes": { "L" : [
-    {"S": "d26713cc-f02d-4fd6-80f0-026784d1ab9b"},
-    {"S": "51e3b0bb-0b27-4b50-960a-c011090d2f3b"}
+  "classCodes": { "SS" : [
+    "d26713cc-f02d-4fd6-80f0-026784d1ab9b",
+    "51e3b0bb-0b27-4b50-960a-c011090d2f3b"
   ]}
 }
