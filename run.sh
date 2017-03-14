@@ -1,4 +1,4 @@
-#!/bin/bash  
+#!/bin/bash
 
 ## Install if not installed yet
 if [ ! -f ~/dynamoDB/DynamoDBLocal.jar ]
