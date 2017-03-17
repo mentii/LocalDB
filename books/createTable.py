@@ -32,7 +32,7 @@ try:
     ],
     AttributeDefinitions=[
         {
-            'AttributeName': 'id',
+            'AttributeName': 'bookId',
             'AttributeType': 'S'
         }
     ],
