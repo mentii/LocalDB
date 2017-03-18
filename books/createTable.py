@@ -45,6 +45,6 @@ try:
     print('Failed to create books table', file=sys.stderr)
     sys.exit(1)
   else:
-    print('Classes books created.')
+    print('Books table created.')
 except botocore.exceptions.ClientError:
   print('Books Table exists already')
