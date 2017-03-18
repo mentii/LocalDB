@@ -22,7 +22,7 @@ print('DB is up')
 
 # Add table
 try:
-  usersTable = dynamodb.create_table(
+  booksTable = dynamodb.create_table(
     TableName='books',
     KeySchema=[
         {
@@ -41,7 +41,7 @@ try:
         'WriteCapacityUnits': 1
     }
   )
-  if (usersTable.wait_until_exists()):
+  if (booksTable.wait_until_exists()):
     print('Failed to create books table', file=sys.stderr)
     sys.exit(1)
   else:
