@@ -1,0 +1,61 @@
+{
+  "bookId": {"S" : "d6742cc-f02d-4fd6-80f0-026784g1ab9b"},
+  "title":{"S" : "Foundations of Algebra"},
+  "description":{"S" : "Introduction to basic algebra concepts necessary for a strong foundation in algebra"},
+  "chapters": {"L": [
+    {"M":{
+      "title": {"S":"Chapter 1"},
+      "sections" : {"L":[
+        {"M":{
+          "title": {"S":"Section 1"},
+          "problems" : {"L":[
+            {"M":{"problemString" : {"S":"8x-9=3"}}},
+            {"M":{"problemString" : {"S":"87x*7=11"}}},
+            {"M":{"problemString" : {"S":"5x/12=63"}}}
+          ]}
+        }},
+        {"M":{
+          "title": {"S":"Section 2"},
+          "problems" : {"L":[
+            {"M":{"problemString" : {"S":"6x-2=1"}}},
+            {"M":{"problemString" : {"S":"4x+3=20"}}}
+          ]}
+        }}
+      ]}
+    }},
+    {"M":{
+      "title": {"S":"Chapter 2"},
+      "sections" : {"L":[
+        {"M":{
+          "title": {"S":"Section 1"},
+          "problems" : {"L":[
+            {"M":{"problemString" : {"S" :"81x*11=123"}}}
+          ]}
+        }},
+        {"M":{
+          "title": {"S":"Section 2"},
+          "problems" : {"L":[
+            {"M":{"problemString" : {"S":"8x-9x=7"}}}
+          ]}
+        }}
+      ]}
+    }},
+    {"M":{
+      "title": {"S":"Chapter 3"},
+      "sections" : {"L": [
+        {"M":{
+          "title": {"S":"Section 1"},
+          "problems" : {"L":[
+            {"M":{"problemString" : {"S":"6+9x=53"}}}
+          ]}
+        }},
+        {"M":{
+          "title": {"S":"Section 2"},
+          "problems" : {"L":[
+            {"M":{"problemString" : {"S":"7+4x=77"}}}
+          ]}
+        }}
+      ]}
+    }}
+  ]}
+}
