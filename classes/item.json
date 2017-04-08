@@ -5,8 +5,8 @@
   "description": {"S": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit mi at massa suscipit, sollicitudin euismod felis lacinia. Phasellus malesuada, enim vitae ultricies ullamcorper, orci eros vestibulum sem, vel tristique justo est ac nisl. Ut sagittis orci feugiat nisi pharetra, ac iaculis odio placerat. Duis ornare congue ultricies. Ut sed commodo neque."},
   "code": {"S": "d26713cc-f02d-4fd6-80f0-026784d1ab9b"},
   "activities": {"L":[
-    {"M":{"title": {"S": "Week 1"}}},
-    {"M":{"title": {"S": "Week 2"}, "description": {"S": "These got fractions"}}},
-    {"M":{"title": {"S": "Week 2"}, "description": {"S": "These got roots"}, "targetDate": {"S": "Mon Mar 13 2017 17:13:04 GMT-0500 (EST)"}}}
+    {"M":{"title": {"S": "Week 1"}, "bookId": {"S": "d6742cc-f02d-4fd6-80f0-026784g1ab9b"}, "chapterTitle": {"S": "Chapter 1"}, "sectionTitle": {"S": "Section 1"}}},
+    {"M":{"title": {"S": "Week 2"}, "description": {"S": "These got fractions"}, "bookId": {"S": "d6742cc-f02d-4fd6-80f0-026784g1ab9b"}, "chapterTitle": {"S": "Chapter 1"}, "sectionTitle": {"S": "Section 2"}}},
+    {"M":{"title": {"S": "Week 3"}, "description": {"S": "These got roots"}, "targetDate": {"S": "Mon Mar 13 2017 17:13:04 GMT-0500 (EST)"},"bookId": {"S": "d6742cc-f02d-4fd6-80f0-026784g1ab9b"}, "chapterTitle": {"S": "Chapter 1"}, "sectionTitle": {"S": "Section 2"}}}
   ]}
 }

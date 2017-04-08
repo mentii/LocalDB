@@ -9,9 +9,9 @@
         {"M":{
           "title": {"S":"Section 1"},
           "problems" : {"L":[
-            {"M":{"problemString" : {"S":"8x-9=3"}}},
-            {"M":{"problemString" : {"S":"87x*7=11"}}},
-            {"M":{"problemString" : {"S":"5x/12=63"}}}
+            {"M":{"problemString" : {"S":"$a$var + $b = $c|0|+ - * /"}}},
+            {"M":{"problemString" : {"S":"$b - $var $op $c = $a"}}},
+            {"M":{"problemString" : {"S":"$var $op $b = $c|-10|10|+ -"}}}
           ]}
         }},
         {"M":{
