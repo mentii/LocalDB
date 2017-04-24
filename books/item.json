@@ -9,7 +9,7 @@
         {"M":{
           "title": {"S":"Section 1"},
           "problems" : {"L":[
-            {"M":{"problemString" : {"S":"$a$var + $b = $c|0|+ - * /"}}},
+            {"M":{"problemString" : {"S":"$a$var + $b = $c|0|10|+ - * /"}}},
             {"M":{"problemString" : {"S":"$b - $var $op $c = $a"}}},
             {"M":{"problemString" : {"S":"$var $op $b = $c|-10|10|+ -"}}}
           ]}
