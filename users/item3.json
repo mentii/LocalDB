@@ -1,9 +1,9 @@
 {
     "activationId": {
-        "S": "0bbbb6f5-e7f1-4f39-b250-13916342723d"
+        "S": "01bbb345-e7f1-4f39-b250-13916342723d"
     },
     "userRole": {
-        "S": "admin"
+        "S": "teacher"
     },
     "active": {
         "S": "T"
@@ -12,6 +12,6 @@
         "S": "5f4dcc3b5aa765d61d8327deb882cf99"
     },
     "email": {
-        "S": "aaronmsegal@gmail.com"
+        "S": "teacher@mentii.me"
     }
 }
